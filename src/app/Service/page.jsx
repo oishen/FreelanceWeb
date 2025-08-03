@@ -20,7 +20,9 @@ const page = () => {
             </div>
             <div className="container-lg">
                 {/* UX/UI */}
-                <div className="row align-items-center flex-lg-row flex-column-reverse" id="ui">
+                <div
+                    className="row align-items-center flex-lg-row flex-column-reverse"
+                    id="ui">
                     <div className="col-lg">
                         <h3>
                             <span className="text-warning">Creative</span> UI
@@ -48,7 +50,9 @@ const page = () => {
                             </li>
                         </ul>
                         <br />
-                        <Link href='/Contactus' className="btn btn-warning text-white shadow">
+                        <Link
+                            href="/Contactus"
+                            className="btn btn-warning text-white shadow">
                             Get Started
                         </Link>
                     </div>
@@ -107,14 +111,18 @@ const page = () => {
                             </li>
                         </ul>
                         <br />
-                        <Link href="/Contactus" className="btn btn-warning text-white shadow">
+                        <Link
+                            href="/Contactus"
+                            className="btn btn-warning text-white shadow">
                             Get Started
                         </Link>
                     </div>
                 </div>
 
                 {/* deployment */}
-                <div className="row align-items-center flex-lg-row flex-column-reverse mb-5" id="hosting">
+                <div
+                    className="row align-items-center flex-lg-row flex-column-reverse mb-5"
+                    id="hosting">
                     <div className="col-lg">
                         <h3>
                             <span className="text-warning">Cloud Hosting </span>{" "}
@@ -137,7 +145,9 @@ const page = () => {
                             <li>Hosting and maintenance support available.</li>
                         </ul>
                         <br />
-                        <Link href="/Contactus" className="btn btn-warning text-white shadow">
+                        <Link
+                            href="/Contactus"
+                            className="btn btn-warning text-white shadow">
                             Get Started
                         </Link>
                     </div>

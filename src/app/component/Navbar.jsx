@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "./image/logo.png";
+import logo from "@/app/component/image/logo.png";
 import iconMenu from "./image/menu.png";
 import iconArrow from "./image/arrow.png";
 
@@ -63,9 +63,7 @@ const Navbar = () => {
             </nav>
 
             {/* responsive modal */}
-            <div
-                className="modal fade"
-                id="navResponsive">
+            <div className="modal fade" id="navResponsive">
                 <div className="modal-dialog modal-fullscreen">
                     <div className="modal-content">
                         <div className="modal-header">
