@@ -77,20 +77,23 @@ const Navbar = () => {
                         <div className="modal-body">
                             <ul className="navbar-nav gap-4">
                                 {menuItems.map((item) => (
-                                    <li className="nav-item" key={item.href}>
+                                    <li
+                                        className="nav-item"
+                                        key={item.href}
+                                        data-bs-dismiss="modal">
                                         <Link
                                             href={item.href}
                                             className={`nav-link btn w-100 text-start justify-content-between d-flex align-items-center ${
                                                 pathname === item.href
                                                     ? "active"
                                                     : ""
-                                            }`}
-                                            id="navItem">
+                                            }`}>
                                             {item.name}
                                             <Image
                                                 src={iconArrow}
-                                                id="iconArrow"
                                                 alt="icon arrow"
+                                                width={16}
+                                                height={16}
                                             />
                                         </Link>
                                     </li>
